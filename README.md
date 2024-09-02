@@ -43,7 +43,7 @@ ORDER BY
         salary_year_avg DESC
 LIMIT 10;
 ```
-![Top 10 Paying DA Jobs](assets/Chart1.png)
+![Top 10 Paying DA Jobs](data_job_analysis_project/Chart1.png)
 *Top 10 Paying Data Analyst Remote jobs*
 
 ### 2. What skills are required for Top-paying Data Analyst Remote jobs?
@@ -82,7 +82,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 
 ORDER BY  salary_year_avg DESC
 ```
-
+[](data_job_analysis_project/Chart2.png)
 
 ### 3. What are the most in-demand skills for data analysts?
 - identify top 5 demanded skills for Data Analysts
@@ -100,7 +100,7 @@ ORDER BY demand_count DESC
 LIMIT 5
 ```
 
-![](assets\Chart3.png)
+![](data_job_analysis_project/Chart3.png)
 
 ### 4. What are top skills based on salary?
 - look at average salary associated with each skill for DA positions
@@ -124,7 +124,7 @@ GROUP BY skills
 ORDER BY salary DESC
 LIMIT 25
 ```
-![](assets\Chart4.png)
+![](data_job_analysis_project/Chart4.png)
 *pyspark is the highest paying skill with average annual salary more than 200k*
 ### 5. what are the most optimum skills to learn?
 reason: identify skills with high stability and financial benefits as well for job seekers
