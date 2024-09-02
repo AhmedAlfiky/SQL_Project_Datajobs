@@ -44,6 +44,7 @@ ORDER BY
 LIMIT 10;
 ```
 ![Top 10 Paying DA Jobs](data_job_analysis_project/Chart1.png)
+
 *Top 10 Paying Data Analyst Remote jobs*
 
 ### 2. What skills are required for Top-paying Data Analyst Remote jobs?
@@ -125,6 +126,7 @@ ORDER BY salary DESC
 LIMIT 25
 ```
 ![](data_job_analysis_project/Chart4.png)
+
 *pyspark is the highest paying skill with average annual salary more than 200k*
 ### 5. what are the most optimum skills to learn?
 reason: identify skills with high stability and financial benefits as well for job seekers
